@@ -2,5 +2,114 @@
 @import "bootstrap";
 
 body {
-  padding-top: 70px;
+  padding-top: 80px;
+  background: #e1e2e3;
+  color: #23453E;
+ }
+
+ // Navbar styling
+ .navbar {
+  background: #23453E;
+  padding-bottom: 20px;
+ }
+
+ .navbar-default .navbar-brand {
+   padding-top: 25px;
+   font-size: 150%;
+   font-weight: bold;
+   color: #ffffff;
+ }
+
+ .navbar-default .navbar-brand:hover {
+   color: #ff0000;
+ }
+
+ .navbar-default {
+   border: #23453E;
+ }
+
+ .navbar-nav {
+   padding-top: 10px;
+   padding-right: 20px;
+ }
+
+ .navbar-default .navbar-nav li > a {
+   font-weight: bold;
+   font-size: 130%;
+   color: #ffffff;
+ }
+
+ .navbar-default .navbar-nav li > a:hover {
+   color: #ff0000;
+ }
+
+ // Form styling
+ .page-heading, div > label {
+   color: #23453E;
+ }
+
+ // Listing articles styling
+
+ .article-title {
+   font-weight: bold;
+   font-size: 2.5em;
+   margin-bottom: 0.8em;
+   padding-left: 0.7em;
+ }
+
+ .article-body {
+   font-size: 1.5em;
+   padding-left: 1.2em;
+   color: #23453E;
+
+ }
+
+ .author {
+   color: #23453E;
+   padding-left: 25px;
+ }
+
+ // .article-title {
+ //
+ // }
+
+ .article-detail {
+   margin-top: 20px;
+   color: #0000ff;
+ }
+
+ .article-detail-title {
+   font-size: 3em;
+   margin-bottom: 40px;
+ }
+
+ .article-show-body {
+   font-size: 1.5em;
+   padding-left: 0em;
+   margin-top: 15px;
+ }
+
+ .edit-delete {
+   margin-top: 20px;
+ }
+
+ // Sign up -- Sign in
+ .sign-link a {
+   color: #23453E;
+ }
+
+ #error_explanation {
+  background-color: #f2dede;
+  color: #a94442;
+  text-align: left;
+  padding: 5px 20px;
+  margin-bottom: 30px;
+ }
+
+ #error_explanation h2 {
+  font-size: 150%;
+ }
+
+ footer {
+   color: #23453E;
  }
